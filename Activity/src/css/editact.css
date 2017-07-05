@@ -1,0 +1,152 @@
+.editact-mask {
+  position: fixed;
+  z-index: 9998;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+  display: table;
+  transition: opacity .3s ease;
+}
+
+.editact-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.editact-container {
+  width: 300px;
+  margin: 0px auto;
+  padding: 20px 30px;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
+  transition: all .3s ease;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.funding-container {
+  width: 500px;
+  margin: 0px auto;
+  padding: 20px 30px;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
+  transition: all .3s ease;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.editact-header h3 {
+  margin-top: 0;
+  color: #42b983;
+}
+
+.editact-body {
+  margin: 10px 0 40px 0;
+}
+
+.editact-button {
+  width: 50px;
+  float: right;
+  position: relative;
+  top: -20px;
+  border: 1px solid #64C3C2;
+  border-radius: 3px;
+  height: 30px;
+  margin-left: 20px; 
+  cursor: pointer;
+  transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+}
+
+.editact-button:first-of-type {
+  background: #FFF;
+  color: #68DFF0;
+}
+
+.editact-button:last-of-type {
+  background: #68DFF0;
+  color: #FFF;
+}
+
+.editact-button:first-of-type:hover {
+	background: #68DFF0;
+  color: #FFF;
+}
+
+.editact-button:last-of-type:hover {
+  background: #FFF;
+  color: #68DFF0;
+}
+
+.editact-container hr {
+	margin-top: 10px;
+}
+
+.editact-body .editact-item {
+	display: block;
+	padding: 5px;
+}
+
+.editact-body .editact-item input {
+	width : 80%;
+	height : 30px;
+	padding-left: 5px;
+  border: 0;
+  outline: 0;
+	border: 1px solid #CCCCCC;
+	border-radius: 3px;
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+}
+.editact-body .editact-item textarea{
+  width : 80%;
+  height : 70px;
+  padding-left: 5px;
+  border: 0;
+  outline: 0;
+  border: 1px solid #CCCCCC;
+  border-radius: 3px;
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+}
+
+.editact-body .editact-item img {
+  border-radius: 100%;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+}
+
+.editact-body .editact-item input:focus {
+  border-color: #68DFF0;
+}
+.editact-body .editact-item textarea:focus {
+  border-color: #68DFF0;
+}
+
+/*
+ * The following styles are auto-applied to elements with
+ * transition="modal" when their visibility is toggled
+ * by Vue.js.
+ *
+ * You can easily play with the modal transition by editing
+ * these styles.
+ */
+
+.editact-enter {
+  opacity: 0;
+}
+
+.editact-leave-active {
+  opacity: 0;
+}
+
+.editact-enter .editact-container,
+.editact-leave-active .editact-container {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}

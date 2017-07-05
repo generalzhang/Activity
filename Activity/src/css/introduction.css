@@ -1,0 +1,49 @@
+.intro-wrap{
+	margin: 5px 5px;
+}
+.introlist{
+	display:flex;
+	background-color: #C1C9D8;
+	border-radius: 5px;
+	padding: 10px;
+}
+.introlist .userlist{
+	flex:2;
+	display: flex;
+	flex-direction: column;
+}
+.introlist span{
+	font-weight: bold;
+	font-size: 20px;
+}
+.userlist span:nth-child(1){
+	font-size: 50px;
+}
+.introlist span:nth-child(1){
+	font-size: 50px;
+}
+.introlist .actlist{
+	flex:3;
+	display: flex;
+	text-align: right;
+}
+.introlist .actlist div{
+	flex:1;
+	display: flex;
+	flex-direction: column;
+}
+.newAct{
+	display :flex;
+	justify-content: space-between;
+}
+.newAct span{
+	font-size: 40px;
+	font-weight: bold;
+	color:#378F55 ;
+}
+.newAct i{
+	display: inline-block;
+	cursor : pointer;
+	color : #378F55;
+	font-size: 50px;
+}

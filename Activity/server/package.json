@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "HttpResult.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "generalzhang",
+  "license": "ISC",
+  "devDependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.16.0",
+    "crypto": "0.0.3",
+    "express": "^4.14.0",
+    "mongoose": "^4.9.7",
+    "multiparty": "^4.1.3"
+  }
+}
